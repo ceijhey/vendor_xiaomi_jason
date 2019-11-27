@@ -141,7 +141,7 @@
     <!--whether support aohdr in camera-->
     <bool name="support_camera_aohdr">false</bool>
     <!--whether support high frame recording in camera-->
-    <bool name="support_camera_hfr">true</bool>
+    <bool name="support_camera_hfr">false</bool>
     <!--whether support chroma flash in camera-->
     <bool name="support_chroma_flash">false</bool>
     <!--whether support object tracking in camera-->
