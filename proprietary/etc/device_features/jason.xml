@@ -297,6 +297,7 @@
         <item>com.miui.voip</item>
         <item>com.miui.yellowpage</item>
         <item>com.xiaomi.drivemode</item>
+        <item>com.miui.smarttravel</item>
     </string-array>
     <!--system data-app path list -->
     <string-array name="system_data_path_list">
@@ -316,6 +317,7 @@
         <item>/system/data-app/MiuiVoip/MiuiVoip.apk</item>
         <item>/system/data-app/YellowPage/YellowPage.apk</item>
         <item>/system/data-app/MiuiDriveMode/MiuiDriveMode.apk</item>
+        <item>/system/data-app/SmartTravel/SmartTravel.apk</item>
     </string-array>
     <bool name="support_audio_loopback">false</bool>
     <!-- whether CN hardware can flash Global rom -->
@@ -350,4 +352,6 @@
     <string-array name="support_face_unlock_region_dom">
         <item>CN</item>
     </string-array>
+    <!-- whether support hangup while screen turnning off -->
+    <bool name="support_hangup_while_screen_off">true</bool>
 </features>
